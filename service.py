@@ -1,4 +1,4 @@
-from __future__ import print_function
+
 
 import urllib.request
 import os
@@ -45,7 +45,7 @@ def handler(event, context):
             print(output)
         except subprocess.CalledProcessError as e:
             print('Error')
-            print(e.output)
+            print((e.output))
     except Exception as e:
         print('Error e')
         print(e)

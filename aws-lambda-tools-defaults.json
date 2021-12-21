@@ -1,0 +1,8 @@
+
+{
+    "region" : "eu-west-3",
+    "profile" : "default",
+    "s3-bucket" : "lunappmdeploybucket",
+    "template"  : "serverless.yml",
+    "stack-name" : "LunaPPMDarkNet"
+}
