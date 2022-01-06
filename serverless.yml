@@ -27,8 +27,8 @@ Resources:
         S3Bucket: ''
         S3Key: '.'
       Description: Make Luna recognize things
-      MemorySize: 1502
+      MemorySize: 2048
       Role: !GetAtt LambdaRole.Arn
       Runtime: python3.9
       Handler: service.handler
-      Timeout: 60
+      Timeout: 120
